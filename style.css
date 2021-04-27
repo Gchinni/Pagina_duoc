@@ -1,7 +1,7 @@
 body{
     font-size: 13px;
     margin: 0px;
-    background-image: url(IMG/background-4.jpg);
+    background-image: ;
     background-position: center;
     background-attachment: fixed;
     color: white;
@@ -12,7 +12,8 @@ body{
 /* Titulo */
 
 #cabezera{
-    background-image: url(IMG/titulo-png-png);
+    background-image: url("IMG/fondo-pradera-1.jpg");
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 150px;
@@ -32,9 +33,9 @@ body{
 }
 
 /* Barra de navegacion */
-
+/*
 nav{
-    background: #105341;
+    background: #FDA102;
 
 }
 
@@ -53,20 +54,21 @@ nav ul li{
 }
 
 nav ul li a{
-    color: aliceblue;
+    color: white;
     font-size: 28px;
     text-decoration: none;
     padding: 8px 80px;
     display: inline-block;
     font-weight: bold;
     font-family: 'century';
-    text-shadow: 3px 2px  #092e24;
+    text-shadow: 3px 2px #9D6606;
 
 
 }
 
 nav ul li a:hover{
-    background: #176e57;
+    background: #DC8F09;
     border-radius: 5px;
 
 }
+*/
