@@ -1,0 +1,72 @@
+body{
+    font-size: 13px;
+    margin: 0px;
+    background-image: url(IMG/background-4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    
+
+}
+
+/* Titulo */
+
+#cabezera{
+    background-image: url(IMG/titulo-png-png);
+    background-attachment: fixed;
+    background-position: center;
+    height: 150px;
+
+}
+
+#cabezera .imagen h1{
+    color: #FDA102;
+    text-align: center;
+    font-family: 'century';
+    font-size: 60px;
+    padding-top: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 5px 3px 3px black;
+
+}
+
+/* Barra de navegacion */
+
+nav{
+    background: #105341;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+nav ul li{
+    display: inline;
+
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 8px 80px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'century';
+    text-shadow: 3px 2px  #092e24;
+
+
+}
+
+nav ul li a:hover{
+    background: #176e57;
+    border-radius: 5px;
+
+}
