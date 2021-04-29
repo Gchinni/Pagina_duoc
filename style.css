@@ -1,72 +1,59 @@
-body{
-    font-size: 13px;
-    margin: 0px;
-    background-image: url(IMG/background-4.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-    
+header{
+    width: 100%;
+    min-height: 625px;
+}
+
+/*font family*/
+.slogan{
+    font-family:Cursive;
+}
+
+/*Navbar*/
+.navbar .nav-link {
+    color:white;
+    margin-right: 29px;
+    transition: 0.2s;
 
 }
 
-/* Titulo */
-
-#cabezera{
-    background-image: url(IMG/titulo-png-png);
-    background-attachment: fixed;
-    background-position: center;
-    height: 150px;
-
+a.nav-link:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
 }
 
-#cabezera .imagen h1{
-    color: #FDA102;
-    text-align: center;
-    font-family: 'century';
-    font-size: 60px;
-    padding-top: 2%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-shadow: 5px 3px 3px black;
-
-}
-
-/* Barra de navegacion */
-
-nav{
-    background: #105341;
-
-}
-
-nav ul{
-    list-style: none;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-
-
-}
-
-nav ul li{
-    display: inline;
-
-}
-
-nav ul li a{
-    color: aliceblue;
-    font-size: 28px;
+.btn-custom {
+    border: 1.5px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    background: none;
+    padding: 8px 20px;
+    font-weight: 500;
     text-decoration: none;
-    padding: 8px 80px;
-    display: inline-block;
-    font-weight: bold;
-    font-family: 'century';
-    text-shadow: 3px 2px  #092e24;
-
+    transition: all 0.6;
 
 }
 
-nav ul li a:hover{
-    background: #176e57;
-    border-radius: 5px;
 
+/*     HEADER     */
+
+/*degrade de fondo*/
+.wave{
+    position: relative;
+    padding-top: 10rem;
+    /*background: linear-gradient(90deg, #E12D2D 0%, #E4FB66 100%);*/
+    /*background: linear-gradient(295deg, rgba(209,86,250,1) 0%, rgba(70,9,99,1) 100%);*/
+    background: linear-gradient(295deg, #5bc6c0 0%, #0c3088 100%); 
+    /*background: linear-gradient(295deg, rgba(0,10,77,1) 0%, rgba(35,104,228,1) 100%);*/
+}
+
+.wave:before {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 216px;
+   background: url(IMG/wave.png);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
