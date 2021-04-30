@@ -33,6 +33,23 @@ a.nav-link:hover {
 
 }
 
+.btn-custom:hover {
+    background: #0c3088;
+    color: white;
+    border: 1.5px solid #0c3088;
+}
+
+.navbar-fixed {
+    background-color: #3A4AC5;
+    padding-top :0;
+    padding-bottom: 0;
+    transition: all 0.6s;
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.1);
+
+}
+
+
+
 
 /*     HEADER     */
 
