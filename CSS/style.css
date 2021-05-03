@@ -79,6 +79,41 @@ a.nav-link:hover {
     margin-top: 4px;
 }
 
+.wave .mar-imag{
+    margin-top: 4px;
+}
+
+@media (max-width: 991px) {
+    .wave .mar-tp{
+    margin-top: 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wave .mar-tp{
+    margin-top: 0px;
+    }
+
+    .wave .mar-imag{
+    margin-top: 0px;
+    }
+}
+
+@media (max-width: 489px) {
+    .wave .mar-imag{
+    margin-top: 4px;
+    }
+}
+
+@media (max-width: 335px) {
+    .wave .mar-tp{
+    margin-top: 4px;
+    }
+}
+
+
+
+
 
 /* NOSTROS */
 
