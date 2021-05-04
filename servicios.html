@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="description" content=""/>
+    <meta name="keywords" content="palabra clave 1, palabra clave 2"/>
+    <meta name="robots" content="index,follow"/>
+    <title>Servicios</title>
+    <link rel="icon" href="IMG/favicon2.png">
+    <link rel="stylesheet" href="./CSS/styleservices.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="Evaluación 1 - Programación Web/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">    
+    </head>
+    <body> 
+        <nav class="navbar navbar-expand-lg fixed-top inicio">
+            <div class="container">
+                <a class="navbar-brand text-white fs-3" href="#"><img class="img-fluid" width="250" src="IMG/logo2.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-lg-4 py-3">
+                       <li class="nav-item ">
+                        <!-- Falta unir la paginas -->
+                          <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                       </li>
+                       <li class="nav-item ">
+                          <a class="nav-link" href="#">Servicios</a>
+                       </li>
+                    </ul>
+                    <a class="btn-custom ms-lg-4" href="#">Contacto</a>
+                </div>
+            </div>
+        </nav>                       
+        <header class="wave" id="inicio">
+            <div class="container">
+                <div class="row">
+                    <!-- Texto -->
+                    <div class="col-md-5 text-white mt-4 ms-5 me-4 slogan" style="z-index: 1;"> 
+                                                                    <!-- col-md = columna en pantallas medianas 
+                                                                    | mt = margin-top 
+                                                                    | ms = margin-start(left) 
+                                                                    | (Al parecer los margin llegan hasta 5) -->
+                        <h1"><b>Cuidamos de tu mejor amigo</b></h1>
+                        <p>Nadie cuida con tanto cariño y profesionalismo a tu mascota como nosotros lo hacemos.</p>
+                        <a class="btn btn-lg btn-warning" href="#about">Nosotros 
+                            <i class="bi bi-arrow-right-circle"></i></a>
+                        <a class="btn btn-lg btn-warning mar-tp" href="#services">Sucursales 
+                            <i class="bi bi-arrow-right-circle"></i></a>
+                        <a class="btn btn-lg btn-warning mar-imag" href="#services">Imagenes 
+                            <i class="bi bi-arrow-right-circle"></i></a>
+                    </div>
+    
+                    <!-- Imagen -->
+                    <div class="col ms-5" style="z-index: 1;">
+                        <img class="img-fluid" width="400" src="IMG/perro-vet1.png">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+           <section class="presentation container">
+               <img src="IMG/Pet _Mania_png.jpeg" class="presentation__picture">
+               <h2 class="subtitle">Los mejores servicios que podrás encontrar</h2>
+               <p class="presentation__copy"></p>
+               <a href="#" class="presentation__cta">¡Contáctanos ahora!</a>
+           </section>
+           <section class="about container">
+               <div class="about__texts">
+                   <h2 class="subtitle">Procedimientos y Consultas Médicas</h2>
+                   <p class="about__paragraph">Pet Manía es una clínica veterinaria que atiende 24 horas, ofreciendo un 
+                       equipo médico de profesionales especializados, instalaciones adecuadas y un moderno equipamiento para dar
+                       la mejor atención a tu mascota.
+                   </p>   
+                </div>
+                <figure class="about__img">
+                    <img src="IMG/img.servicio_procedimientos.jpg" class="about__picture">
+                </figure>
+                <figure class="about__img about__img--left">
+                    <img src="IMG/img.servicio_vacuna.png" class="about__picture">
+                </figure>
+               
+                <div class="about__texts">
+                    <h2 class="subtitle">Vacunas Manía</h2>
+                    <p class="about__paragraph">En Pet Manía, ofrecemos servicios de vacunación preventiva. 
+                        Tenemos diversar opciones acorde a la edad de tu mascota. </p>     
+                 </div>             
+  
+                 <div class="about__texts">
+                    <h2 class="subtitle">Servicio de Esterilización Manía</h2>
+                    <p class="about__paragraph">Esterilizar trae múltiples beneficios para 
+                        la salud y comportamiento de tu mascota. ¡Agenda tu hora con nosotros! </p>    
+                 </div>
+                 <figure class="about__img">
+                    <img src="IMG/img.servicio_esterilizacion.png" class="about__picture">
+                </figure>
+                <figure class="about__img about__img--left">
+                    <img src="IMG/img.servicio_microchip.jpeg" class="about__picture">
+                </figure>
+
+                <div class="about__texts">
+                    <h2 class="subtitle">Microchip Manía</h2>
+                    <p class="about__paragraph">El microchip es un dispositivo electrónico, que permite registrar todos los datos de tu mascota,
+                         ya que así en caso de extravío, se pueda escanear a través de una máquina. 
+                        Es del tamaño de un grano de arroz y no tiene rechazo por parte del organismo. 
+                        En Pet Manía colocamos este chip de manera ambulatoria, ya que no requiere anestesia.
+                    </p>
+                </div>
+                <div class="about__texts">
+                    <h2 class="subtitle">Peluquería Manía</h2>
+                    <p class="about__paragraph">Nuestro servicio de Peluquería Manía incluye: Baño sanitario, limpieza de oídos, corte de uñas y 
+                        limpieza de glándulas anales. Además contamos con un servicio de peluquería a domicilio. 
+                        Nuestra Peluquería Manía está abierta de Lunes a Sábados desde las 9:00 am.</p>
+      
+                 </div>
+                 <figure class="about__img">
+                    <img src="IMG/img.servicio_peluqueria.png" class="about__picture">
+                </figure>
+                <figure class="about__img">
+                    <img src="IMG/img.servicio_hoteleria.png" class="about__picture">
+                </figure>
+                <div class="about__texts">
+                    <h2 class="subtitle">Hotelería Manía</h2>
+                    <p class="about__paragraph">En Pet Manía, contamos con cuidados personalizados las 24 hrs, 
+                        donde tus mascotas podrán divertirse en espacios acondicionados completamente para ellos.
+                        Además tendrás reportes diarios con fotos y videos para saber como está. Nuestra infraestructura cuenta con 
+                        10 suites exclusivos. </p>     
+                 </div>                         
+           </section>
+           <section class="projects">
+               <div class="container">
+                   <h2 class="subtitle">Nuestras instalaciones</h2>
+                    <div class="projects__grid">
+                        <article class="projects__item">
+                            <img src="IMG/img.infraestructura_recepcion.jpg" class="projects__img">
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Galería</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </article>
+
+                        <article class="projects__item">
+                            <img src="IMG/img.infraestructura_hospitalizacion.jpg" class="projects__img">
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Galería</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </article>
+
+                        <article class="projects__item">
+                            <img src="IMG/img.infraestructura_laboratorio.jpg" class="projects__img">
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Galería</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </article>
+
+                        <article class="projects__item">
+                            <img src="IMG/img.infraestructura_quirofano.jpg" class="projects__img">
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Galería</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </article>
+
+                        <article class="projects__item">
+                            <img src="IMG/img.infraestructura_rayos.jpg" class="projects__img">
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Galería</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+           </section>
+           <section class="testimony container">
+               <h2 class="subtitle">¿Qué dicen nuestros PetManiaticos?</h2>
+               <div class="testimony__grid">
+                   <article class="testimony__item">
+                       <div class="testimony__person">
+                           <img src="IMG/img.cliente1.jpg" class="testimony__img">
+                           <div class="testimony__texts">
+                               <h3 class="testimony__name">Raimundo Echeverría</h3>
+                               <p class="testimony__verification">Vacuna a Poppy</p>
+                             </div>
+                       </div>
+                       <p class="testimony__review">"Excelente atención. Poppy estaba muy asustado, sin embargo
+                           el equipo especializado de Pet Manía logró hacerlo entrar en confianza en un par de segundos.
+                           Recomiendo esta veterinaria en un 100%."" </p>
+                   </article>
+                   <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="IMG/img.cliente2.png" class="testimony__img">
+                        <div class="testimony__texts">
+                            <h3 class="testimony__name">Marcela del Río</h3>
+                            <p class="testimony__verification">Operación tumor a Canela</p>
+                          </div>
+                    </div>
+                    <p class="testimony__review">"Canela tenía un tumor en su estómago y los médicos veterinarios hicieron un excelente trabajo,
+                         y gracias a ello Canela anda feliz, sin dolor y tranquila."
+                </article>                
+               </div>
+           </section>
+        </main>
+       <footer class="footer">
+            <div class="container footer__grid">
+                <p>
+                    Trabajo del curso <b>Desarrollo Web.</b> Diseñado por los <b>estudiantes</b> de la carrera <b>Ingeniría Informática.</b> Carrera impartida por <b><a href="https://www.duoc.cl/">DuocUC</a>.</b>
+                </p>
+            <div class="col-md-4">
+                <h4 class="mb-2">Desarrollo</h4>
+                <p>Guillermo Chinni: <b>Inicio</b> <br>Constanza Hasse: <b>Servicios</b> <br>Camilo Irarrazabal: <b>Contacto</b></p>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    Copyrights © 2021 <a href="https://www.instagram.com/constanzahasse/">Constanza Hasse</a> - Todos los derechos reservados
+                </div>
+            </div>                            
+        </footer>
+
+
+        <script type="text/javascript" src="JS/script.js"></script>
+    </body>
+</html>
+
