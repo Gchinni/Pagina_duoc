@@ -8,6 +8,25 @@ header{
     font-family:Cursive;
 }
 
+/*Boton*/
+
+.go-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: #0c3088;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
 /*Navbar*/
 .navbar .nav-link {
     color:white;
@@ -48,6 +67,31 @@ a.nav-link:hover {
 
 }
 
+.inicio .navbar-toggler {
+   padding: .10rem .45rem;
+   border: 1px solid white;
+}
+
+.inicio .navbar-toggler:focus {
+   outline: none;
+   box-shadow: none;
+}
+
+.inicio .navbar-toggler i.bi-list {
+   color: white;
+   font-size: 1.6rem;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        padding-bottom: 19px;
+
+    }
+
+    .wave {
+        padding-top: 6rem;
+    }
+}
 
 
 
@@ -57,10 +101,7 @@ a.nav-link:hover {
 .wave{
     position: relative;
     padding-top: 10rem;
-    /*background: linear-gradient(90deg, #E12D2D 0%, #E4FB66 100%);*/
-    /*background: linear-gradient(295deg, rgba(209,86,250,1) 0%, rgba(70,9,99,1) 100%);*/
     background: linear-gradient(295deg, #5bc6c0 0%, #0c3088 100%); 
-    /*background: linear-gradient(295deg, rgba(0,10,77,1) 0%, rgba(35,104,228,1) 100%);*/
 }
 
 .wave:before {
@@ -70,10 +111,49 @@ a.nav-link:hover {
    left: 0;
    width: 100%;
    height: 216px;
-   background: url(IMG/wave.png);
+   background: url(/IMG/wave.png);
    background-size: cover;
    background-repeat: no-repeat;
 }
+
+.wave .marg {
+    margin-top: 4px;
+}
+
+.wave .mar-imag{
+    margin-top: 4px;
+}
+
+@media (max-width: 991px) {
+    .wave .mar-tp{
+    margin-top: 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wave .mar-tp{
+    margin-top: 0px;
+    }
+
+    .wave .mar-imag{
+    margin-top: 0px;
+    }
+}
+
+@media (max-width: 489px) {
+    .wave .mar-imag{
+    margin-top: 4px;
+    }
+}
+
+@media (max-width: 335px) {
+    .wave .mar-tp{
+    margin-top: 4px;
+    }
+}
+
+
+
 
 
 /* NOSTROS */
@@ -101,7 +181,7 @@ section {
 
 /* ABOUT */
 
-.about .member {
+.member {
     padding: 30px;
     border-radius: 5px;
     background: #f9f9fd;
@@ -109,13 +189,13 @@ section {
 
 }
 
-.about .member:hover {
-    box-shadow: 0px 15px 30px rgb(77 ,87 ,222, 30%);
+.member:hover {
+    box-shadow: 0px 15px 30px rgb(77 ,87 ,222, 0.6);  /*30%*/
     background: #fff;
 
 }
 
-.about .member h4{
+.member h4{
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
@@ -123,7 +203,7 @@ section {
 
 }
 
-.about .member .pic-vete {
+.member .pic-vete {
     overflow: hidden;
     width: 380px;
     border-radius: 50%;
@@ -132,7 +212,7 @@ section {
 
 
 @media (max-width: 991px) {
-    .about .member .pic-vete {
+    .member .pic-vete {
         overflow: hidden;
         width: 520px;
         border-radius: 50%;
@@ -141,7 +221,7 @@ section {
 }
 
 @media (max-width: 767px) {
-    .about .member .pic-vete {
+    .member .pic-vete {
         overflow: hidden;
         width: 780px;
         border-radius: 50%;
@@ -150,14 +230,14 @@ section {
 }
 
 
-.about .member .pic {
+.member .pic {
     overflow: hidden;
     width: 230px;
     border-radius: 50%;
 
 }
 
-.about .member span {
+.member span {
     display: block;
     font-size: 15px;
     padding-bottom: 10px;
@@ -165,13 +245,13 @@ section {
 
 }
 
-.about .member p {
+.member p {
     margin: 10px 0 0 0;
     font-size: 14px;
 
 }
 
-.about .member a {
+ .member a {
     transition: ease-in-out 0.3s;
     display: flex;
     align-items: center;
@@ -183,9 +263,35 @@ section {
 
 }
 
-.about .member a:hover{
+.member a:hover{
     background: #0c3088;
     border: 1px solid #3A4AC5;
+}
+
+
+/* SUCURSALES */
+
+.member .img-cli {
+    overflow: hidden;
+    width: 230px;
+    border-radius: 4%;
+
+}
+
+
+/*  FOOTER  */
+
+
+footer {
+    border-top: 1px solid #7e7e7e;
+    padding-top: 44px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+
 }
 
 
