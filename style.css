@@ -47,10 +47,6 @@ a.nav-link:hover {
     box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.1);
 
 }
-
-
-
-
 /*     HEADER     */
 
 /*degrade de fondo*/
@@ -62,7 +58,6 @@ a.nav-link:hover {
     background: linear-gradient(295deg, #5bc6c0 0%, #0c3088 100%); 
     /*background: linear-gradient(295deg, rgba(0,10,77,1) 0%, rgba(35,104,228,1) 100%);*/
 }
-
 .wave:before {
    content: '';
    position: absolute;
@@ -75,10 +70,7 @@ a.nav-link:hover {
    background-repeat: no-repeat;
 }
 
-
-/* NOSTROS */
-
-
+/*CONTACTOS*/
 section {
     padding: 82px 0px;
 
@@ -98,36 +90,28 @@ section {
     color: #3A4AC5;
 
 }
-
 /* ABOUT */
-
 .about .member {
     padding: 30px;
     border-radius: 5px;
     background: #f9f9fd;
     transition: 0.5s;
-
 }
-
 .about .member:hover {
     box-shadow: 0px 15px 30px rgb(77 ,87 ,222, 30%);
     background: #fff;
-
 }
-
 .about .member h4{
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #3A4AC5;
-
 }
 
 .about .member .pic-vete {
     overflow: hidden;
     width: 380px;
     border-radius: 50%;
-
 }
 
 
@@ -136,41 +120,32 @@ section {
         overflow: hidden;
         width: 520px;
         border-radius: 50%;
-
     }
 }
-
 @media (max-width: 767px) {
     .about .member .pic-vete {
         overflow: hidden;
         width: 780px;
         border-radius: 50%;
-
     }
 }
-
 
 .about .member .pic {
     overflow: hidden;
     width: 230px;
     border-radius: 50%;
-
 }
-
 .about .member span {
     display: block;
     font-size: 15px;
     padding-bottom: 10px;
     font-weight: 500;
-
 }
 
 .about .member p {
     margin: 10px 0 0 0;
     font-size: 14px;
-
 }
-
 .about .member a {
     transition: ease-in-out 0.3s;
     display: flex;
@@ -180,13 +155,20 @@ section {
     width: 38px;
     height: 38px;
     border: 1px solid;
-
 }
 
 .about .member a:hover{
     background: #0c3088;
     border: 1px solid #3A4AC5;
 }
+footer {
+    border-top: 1px solid #7e7e7e;
+    padding-top: 44px;
 
+}
 
+footer a{
+    text-decoration: none;
+    color: black;
 
+}
