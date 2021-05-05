@@ -1,0 +1,76 @@
+/* FORMULARIO: */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slogan{
+    font-family:Cursive;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+body{
+    position: relative;
+    padding-top: 10rem;
+    background: rgb(59,2,80);
+    background: linear-gradient(90deg, rgba(59,2,80,1) 3%, rgba(135,0,255,1) 32%, rgba(23,108,214,1) 63%, rgba(7,0,36,1) 100%);
+}
+
+ form{
+    width: 450px;
+    margin: auto;
+    background: rgba(169, 189, 186, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+} 
+
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;  /*<== Para que no se salga del borde */
+    font-size: 17px;
+    border: none; /*para que este mas plano*/
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 300px;
+    max-width: 500px;
+}
+input[type=submit]
+{
+color: #fff;
+}
+
+
+/* boton de enviar: */
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    from{
+        width: 100%;
+    }
+}
+
