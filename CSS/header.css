@@ -14,7 +14,7 @@
    left: 0;
    width: 100%;
    height: 216px;
-   background: url(/IMG/wave.png);
+   background: url(../IMG/wave.png);
    background-size: cover;
    background-repeat: no-repeat;
 }

@@ -28,15 +28,6 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
-
 /* NOSTROS */
 
 
@@ -160,5 +151,20 @@ section {
 }
 
 
+/* CARRUSEL */
 
 
+.car-borde{
+	border-radius: 5px
+}
+
+.carousel-item {
+	height: 32rem;
+	background: #ffff;
+
+}
+
+.carousel-item img{
+	height: 32rem;
+	border-radius: 15px;
+}
