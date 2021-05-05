@@ -108,3 +108,14 @@
     margin-top: 4px;
     }
 }
+
+@media (max-width: 768px) {
+  .text-center-xs {
+    text-align: center;
+  }
+  .text-center-xs img {
+    width: 366px;
+  }
+
+}
+
