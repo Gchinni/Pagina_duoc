@@ -89,3 +89,20 @@ color: #fff;
         width: 100%;
     }
 }
+
+/*Boton clima*/
+
+#btmclima{
+    background: #12A0CF;
+    color: #fff;
+    padding: 10px;
+
+}
+#btmclima:hover{
+    cursor: pointer;
+}
+@media (max-width:480px){
+    from{
+        width: 100%;
+    }
+}

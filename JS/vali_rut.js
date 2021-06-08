@@ -1,12 +1,20 @@
+const obtenerRut = () => {
 
-let rut = document.querySelector('#rut').value;
-console.log(rut);
+    let rut = document.querySelector("#rut").value;
 
-let ciudad = document.querySelector("#ciudad").value;
-console.log(ciudad);
+    if(rut.trim()==='') {
+        mostrarError("#msj-error", "El rut no esta rellenado");
+        return
+    }
 
-function checkRut(rut){
-    var valor= rut.value.replace('.','');
+    checkRut(rut);
+
+}
+
+
+
+function checkRut(document.querySelector("#rut")){
+    let valor= rut.value.replace('.','');
     valor = valor.replace('-','');
     Cuerpo= valor.slice(0, -1);
     dv =valor.slice(-1).toUpperCase();
@@ -41,4 +49,8 @@ function checkRut(rut){
 }
 
 
-
+const mostrarError = (elemento, mensaje) => {
+    divError=document.querySelector(elemento);
+    divError.innerHTML=`<p class="alert alert-danger error">${mensaje}</p>`;
+    setTimeout(()=> { divError.innerHTML=''; }, 4000);
+}
