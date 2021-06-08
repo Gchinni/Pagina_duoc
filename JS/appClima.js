@@ -37,7 +37,7 @@ const consultarAPI= async(ciudad, pais)=>{
 		<div class="alert alert-primary cal s12">
 			<div class="text.dark">
 				<h2 class="text-dark">El clima de ${name} es: </h2>
-				<p class="temperatura text-center">
+				<p class="temperatura text-center"> Temperatura Actual: 
 					${parseFloat(main.temp-kelvin,10).toFixed(2)} <span> &#x2103; </span>
 				</p>
 				<p class=" text-center"> Temperatura Máxima: 
