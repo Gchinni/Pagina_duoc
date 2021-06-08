@@ -58,19 +58,51 @@ color: #fff;
 
 
 /* boton de enviar: */
-#boton{
-    background: #31384A;
+#enviar{
+    background: #5a04a1;
     color: #fff;
-    padding: 20px;
-}
+    padding: 10px;
 
-#boton:hover{
+}
+#enviar:hover{
     cursor: pointer;
 }
-
 @media (max-width:480px){
     from{
         width: 100%;
     }
 }
 
+/*boton de limpiar: */
+
+#limpiar{
+    background: #0033b4;
+    color: #fff;
+    padding: 10px;
+
+}
+#limpiar:hover{
+    cursor: pointer;
+}
+@media (max-width:480px){
+    from{
+        width: 100%;
+    }
+}
+
+/*Boton clima*/
+
+#btmclima{
+    background: #12A0CF;
+    color: #fff;
+    padding: 10px;
+
+}
+#btmclima:hover{
+    cursor: pointer;
+}
+@media (max-width:480px){
+    from{
+        width: 100%;
+    }
+}
