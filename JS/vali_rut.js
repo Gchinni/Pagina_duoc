@@ -1,6 +1,9 @@
 
-let rut = document.querySelector('#rut').val();
-console.log(rut.textContent);
+let rut = document.querySelector('#rut').value;
+console.log(rut);
+
+let ciudad = document.querySelector("#ciudad").value;
+console.log(ciudad);
 
 function checkRut(rut){
     var valor= rut.value.replace('.','');

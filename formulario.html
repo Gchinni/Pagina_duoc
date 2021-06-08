@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src='https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js'></script>
-    <script src="JS/vali_rut.js"></script>
+    <script type="text/javascript" src="JS/vali_rut.js"></script>
+    <script type="text/javascript" src="JS/appClima.js"></script>
 
 
     <script type="text/javascript">
@@ -119,6 +120,7 @@
     <center>
         <form method="POST" class="mb-5" action="resultado.html">
             <h2 class="slogan">Formulario</h2>   
+            <div id="msj-error"></div>
             <div class="container">   
                 <input type="text" name="nombre" placeholder="Nombre Completo" class="mb-3" id="nombre">  
                 <input type="text" name="rut" placeholder="11.111.111-1" required oninput="checkRut(this)" class="mb-3" id="rut">
@@ -126,14 +128,26 @@
                 <input type="number" placeholder="Número de Teléfono (Opcional)" class="mb-3" id="numero"  name="numero">
                 <input type="text" placeholder="Ciudad de Residencia" class="mb-3" name="ciudad" id="ciudad">
                 <textarea name="mensaje" placeholder="Escriba su mensaje" class="mb-3" maxlength="50" ></textarea>   
-                <input type="submit" class="btn btn-danger" value="Enviar" name="Enviar" id="enviar">
+                <input type="submit" class="btn btn-danger" value="Enviar" name="Enviar" id="enviar" >
                 <br><br>
                 <input type="reset" class="mb-3" value="Limpiar" name="limpiar" id="limpiar"> 
                 <div id="error" class="alert alert-danger" role="alert"></div>
+                <button type="button" class="waves-effect waves-light btn-large btn-block  accent-4 s12" onclick="obtenerClima()">Buscar clima</button>
             </div>
         </form>
+
     </center>
     
+    <section id="services" class="services">
+        <div class="container mb-5">
+            <div class="row">
+
+                <div class="col mx-5 m6 s12" id="divResultado"></div>
+
+            </div>
+        </div>
+    </section>
+
     <!--  SUCURSALES  -->
 
 
@@ -141,11 +155,10 @@
         <div class="container mb-5">
             <div class="row">
 
-                <div class="col d-flex align-items-stretch">
+                <div class="col mx-5 d-flex align-items-stretch alert-primary">
                     <div class="member mx-auto text-center">
                         <div class="slogan pt-2 text-center">
                             <h4>Sucursal</h4>
-                            <span>Gerónimo de Alderete 1567, Santiago, Vitacura, RM <br>+569 4249 9667</span>
                             <div class="d-flex mt-2">
                                 <a href="API/index.html" class="mx-auto"><i class="bi bi-geo"></i></a>
                             </div>
