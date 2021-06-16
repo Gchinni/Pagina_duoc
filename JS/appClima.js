@@ -6,8 +6,8 @@ const obtenerClima = () => {
 	let pais = "chile"
 
 
-	if(ciudad.trim()==='' || pais.trim()==='') {
-		mostrarError("#msj-error", "falta llenar campos");
+	if(ciudad.trim()==='') {
+		showError("#msj-error", "falta llenar campos");
 		return
 	}
 
@@ -18,13 +18,13 @@ const obtenerClima = () => {
 const consultarAPI= async(ciudad, pais)=>{
 	const apiKey="c136a9653ae4e58924924b5a69577b73";
 	const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${apiKey}`
-	console.log(url);
+	// console.log(url);
 	const respuesta = await fetch(url);
 	const resultado = await respuesta.json();
-	console.log(resultado);
+	// console.log(resultado);
 
 	if (resultado.cod=="404"){
-		mostrarError("#msj-error", "No hay resultados");
+		showError("#msj-error", "No hay resultados");
 		return;
 	}
 
@@ -57,7 +57,7 @@ const consultarAPI= async(ciudad, pais)=>{
 
 
 
-const mostrarError = (elemento, mensaje) => {
+const showError = (elemento, mensaje) => {
 	divError=document.querySelector(elemento);
 	divError.innerHTML=`<p class="alert alert-danger error">${mensaje}</p>`;
 	setTimeout(()=> { divError.innerHTML=''; }, 4000);
